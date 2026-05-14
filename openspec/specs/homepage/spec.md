@@ -7,12 +7,27 @@
 - **WHEN** 使用者訪問 leo-kuo.com
 - **THEN** 頁面顯示「Leo Kuo」作為主要文字
 
-### Requirement: GitHub 連結
-首頁 SHALL 提供可點擊的 GitHub 個人頁連結。
+### Requirement: 外部連結
+首頁 SHALL 提供可點擊的外部連結（GitHub、Blog），於新分頁開啟，且不暴露 email。
 
 #### Scenario: 點擊 GitHub 連結
 - **WHEN** 使用者點擊 GitHub 連結
 - **THEN** 於新分頁開啟 GitHub 個人頁
+
+#### Scenario: 點擊 Blog 連結
+- **WHEN** 使用者點擊 Blog 連結
+- **THEN** 於新分頁開啟 Blog 頁面
+
+### Requirement: LK logo
+首頁 SHALL 顯示 LK 字母組合 logo，同時作為頁面視覺識別與瀏覽器 favicon。
+
+#### Scenario: 頁面載入顯示 logo
+- **WHEN** 使用者訪問 leo-kuo.com
+- **THEN** 頁面名字上方顯示 LK logo 圖示
+
+#### Scenario: 瀏覽器分頁顯示 favicon
+- **WHEN** 使用者訪問 leo-kuo.com
+- **THEN** 瀏覽器分頁顯示 LK logo 作為 favicon
 
 ### Requirement: 不暴露 email
 首頁 SHALL NOT 在任何位置顯示 email 地址或 mailto 連結。
