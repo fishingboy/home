@@ -1,0 +1,12 @@
+services:
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./src:/usr/share/nginx/html
+    networks:
+      - nginx-net 
+    container_name: nginx-leo
+
+networks:
+  nginx-net:
+    external: true
