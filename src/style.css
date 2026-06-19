@@ -51,6 +51,19 @@ h1 {
   color: var(--color-text);
 }
 
+.identity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.role {
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
