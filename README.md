@@ -5,7 +5,7 @@
 ## 結構
 
 ```
-src/
+docs/
 ├── index.html   # 主頁面
 ├── style.css    # 樣式
 └── logo.svg     # LK 字母 logo（favicon 及頁面 logo）
