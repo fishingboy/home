@@ -1,0 +1,23 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "[leo-kuo.com](https://leo-kuo.com) 的個人首頁。",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishingboy/home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fishingboy/home/issues"
+  },
+  "homepage": "https://github.com/fishingboy/home#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
+  }
+}
